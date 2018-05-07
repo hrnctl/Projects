@@ -1,0 +1,5 @@
+The aim of this project is sorting a dataset with quicksort algorithm. I am sorry for missing pdf file of explaination of homework.\
+You need to extract zip file before run
+This program should compile and run using the following commands:
+g++ main.cpp 
+./a.out sizeofdataset(integer)
