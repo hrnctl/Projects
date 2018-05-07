@@ -1,0 +1,4 @@
+The aim of this project is designing a phonebook using linkedlist. I am sorry for missing pdf file of explaination of homework.\
+This program should compile and run using the following commands:
+g++ phoneprog.cpp list.cpp list.h node.h 
+./a.out
