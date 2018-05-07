@@ -1,0 +1,4 @@
+The aim of this project is designing a song playlist with linked list. I am sorry for missing pdf file of explaination of homework.\
+This program should compile and run using the following commands:
+g++ main.cpp lists.cpp lists.h
+./a.out
