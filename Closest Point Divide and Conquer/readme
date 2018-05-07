@@ -1,0 +1,6 @@
+
+This program should compile and run using the following commands: \cb1 \
+
+ g++ -std=c++11 main.cpp 
+
+./a.out data1000.txt (data5000.txt,data10000.txt,data25000.txt)\
