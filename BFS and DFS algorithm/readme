@@ -1,0 +1,4 @@
+This program should compile and run using the following commands: 
+g++ code.cpp
+./a bfs
+./a dfs 
