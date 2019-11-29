@@ -1,0 +1,27 @@
+Query For User table
+
+CREATE TABLE User(
+  userid INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  surname VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  loginName VARCHAR(255) NOT NULL,
+
+);
+
+Query for TodoList table
+CREATE TABLE TodoList(
+  todoListId INT AUTO_INCREMENT PRIMARY KEY,
+  userId INT,
+  month VARCHAR(255) NOT NULL,
+  day VARCHAR(255) NOT NULL,
+  year VARCHAR(255) NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  status VARCHAR(255) NOT NULL,
+
+FOREIGN KEY (userId) REFERENCES User(userId)
+);
+
+
+
